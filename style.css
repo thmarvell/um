@@ -196,6 +196,13 @@ color: #E4405F;
     flex-flow: row wrap;
 }
 
+@media (max-width: 1150px){
+    .galeria {
+    flex-direction: column;
+    align-items: center;
+}
+}
+
 #galeria4 {
     margin: 5px;
     border-radius: 50px;
